@@ -38,6 +38,7 @@ graph TD
     HR -.-> Stress
     Tech -.-> Conf
     Beh -.-> Bias
+```
 
 
 ## 🚀 Quick Start
