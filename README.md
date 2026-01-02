@@ -19,7 +19,8 @@ An advanced, production-ready AI-powered interview platform using **LangGraph** 
 - **Visual Analytics**: (Coming soon in CLI) Radar charts and performance trajectory analysis.
 
 ## 📊 System Architecture
-mermaid
+
+```mermaid
 graph TD
     Start((START)) --> HR[HR Agent]
     HR -->|Cultural Fit & Comm| Tech[Technical Agent]
