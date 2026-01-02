@@ -20,7 +20,6 @@ An advanced, production-ready AI-powered interview platform using **LangGraph** 
 
 ## 📊 System Architecture
 
-```mermaid
 graph TD
     Start((START)) --> HR[HR Agent]
     HR -->|Cultural Fit & Comm| Tech[Technical Agent]
@@ -28,17 +27,17 @@ graph TD
     Beh -->|STAR Method| Eval[Evaluator Agent]
     Eval -->|Final Decision| End((END))
     
-    subgraph "Analysis Engine"
+    subgraph AE["Analysis Engine"]
         Stress[Stress Detection]
         Conf[Confidence Analysis]
         Bias[Bias Detection]
         Sentiment[Sentiment Analysis]
     end
     
-    HR -.-> Analysis Engine
-    Tech -.-> Analysis Engine
-    Beh -.-> Analysis Engine
-```
+    HR -.-> Stress
+    Tech -.-> Conf
+    Beh -.-> Bias
+
 
 ## 🚀 Quick Start
 
