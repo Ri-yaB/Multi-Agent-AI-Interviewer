@@ -1,0 +1,10 @@
+langgraph
+langchain
+langchain-anthropic
+langchain-community
+python-dotenv
+pydantic
+typing-extensions
+textblob
+vaderSentiment
+nltk
